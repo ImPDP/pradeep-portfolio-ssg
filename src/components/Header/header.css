@@ -1,0 +1,68 @@
+@import "../../styles/typograpghy.css";
+
+.pdp-nav {
+  overflow: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.pdp-nav ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  flex: 1;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.pdp-nav ul li {
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 1rem;
+  font-family: "Spartan Bold";
+}
+
+.pdp-nav ul li:hover {
+  color: goldenrod;
+  font-size: 1rem;
+  font-family: "Spartan Bold";
+}
+
+.resume-btn-holder {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+#resume-btn {
+  border: 0.5px grey solid;
+  outline: none;
+  border-radius: 50px;
+  padding-top: 9px;
+  padding-bottom: 6px;
+  padding-right: 15px;
+  padding-left: 15px;
+  font-size: 1.2rem;
+  background-color: white;
+  color: #323232;
+  font-family: "Spartan Regular";
+  cursor: pointer;
+  transition: background-color 0.5s ease-in;
+}
+
+#resume-btn:hover {
+  border: 0.5px grey solid;
+  outline: none;
+  border-radius: 50px;
+  padding-top: 9px;
+  padding-bottom: 6px;
+  padding-right: 15px;
+  padding-left: 15px;
+  font-size: 1.2rem;
+  background-color: rgba(0, 0, 0, 1);
+  color: rgb(255, 255, 255);
+  font-family: "Spartan Semi Bold";
+}
